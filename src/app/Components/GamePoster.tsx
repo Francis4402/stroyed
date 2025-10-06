@@ -42,7 +42,7 @@ const GamePoster = () => {
   ]
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full mt-10">
 
       <div className='hidden lg:block'>
         <div className="grid md:grid-cols-6 overflow-x-hidden w-full scrollbar-hide">
@@ -51,6 +51,7 @@ const GamePoster = () => {
               key={`${image.src}-${index}`}
               className="relative overflow-hidden"
             >
+              <div className="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-black to-transparent" />
               <Image 
                 src={image.src} 
                 alt={image.alt} 
@@ -70,6 +71,7 @@ const GamePoster = () => {
         <div className="grid grid-cols-4 overflow-x-hidden w-full scrollbar-hide">
             {images.slice(0, 4).map((image, index) => (
               <div key={`${image.src}-${index}`} className="relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-black to-transparent" />
                 <Image 
                   src={image.src} 
                   alt={image.alt} 

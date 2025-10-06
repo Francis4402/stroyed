@@ -32,7 +32,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="bg-white w-full shadow-md relative">
+            <nav className="bg-white w-full shadow-md relative z-20">
                 {/* Desktop Navigation */}
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center md:h-20">

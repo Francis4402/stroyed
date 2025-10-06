@@ -41,10 +41,6 @@ const ServicesSection = () => {
               ))
             }
 
-            <div className='md:flex justify-end mt-2 hidden'>
-              <Image src={"/servicecookies.png"} alt='i' width={250} height={250} className='hidden lg:block' />
-              <Image src={"/servicecookies.png"} alt='i' width={200} height={200} className='lg:hidden block' />
-            </div>
           </div>
         </div>
       </div>
